@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSMDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/cao.jun.it</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSMDemo" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/cao.jun.it/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SSMDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
